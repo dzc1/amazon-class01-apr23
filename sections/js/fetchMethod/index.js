@@ -114,6 +114,7 @@ let addPost = async (eventoTipoDOM) => {
     // headers
     // Manera de especificzr que tipon de dato se esta envizando dentro de la llamada/respuesto tipo http para evitar algun error o alguna corrupcion de data mieentra se hace la comunicacion/envio de informaicion.
     headers: {
+      // El header Content-Type se utiliza para indicar el tipo de medio original del recurso (antes de cualquier codificación de contenido aplicada para el envío). En este caso, como sabemos que la data que vamos a recibir es en formato JSON, podríamos añadir los siguientes headers a nuestro fetch:
       "Content-type": "application/json; charset=UTF-8",
     },
   })
