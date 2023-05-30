@@ -124,6 +124,9 @@ let addPost = async (eventoTipoDOM) => {
     })
     .then((info) => {
       console.log(info);
+      // impiar los inputs dsps de que se envie la informacion
+      document.querySelector("#title").value = "";
+      document.querySelector("#body").value = "";
     });
   //.catch((error) => console.log(error));
 };
