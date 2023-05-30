@@ -93,3 +93,35 @@ fetch("https://jsonplaceholder.typicode.com/posts")
 // Otro beneficio es que es muy compatible con el lenguaje javascript, ya que es un formato nativo de javascript, es fácil de convertir un objeto javascript en un json y viceversa.
 
 // En resumen, JSON es un formato de intercambio de datos popular debido a su facilidad de uso y su compatibilidad con múltiples lenguajes de programación, es especialmente útil para el desarrollo web y para la comunicación entre el cliente y el servidor.
+
+// -------------------
+// -------------------
+// -------------------
+// -------------------
+// -------------------
+// -------------------
+// -------------------
+// -------------------
+// La fetch API es una interfaz que permite realizar peticiones HTTP asíncronas a servidores desde los navegadores web y que utiliza Promise.
+
+// El método fetch() está disponible en el ámbito global que ordena a los navegadores web enviar una petición a una URL.
+
+// ----- Envío de una solicitud -----
+
+// La función fetch() sólo requiere un parámetro: la URL del recurso que se quiere obtener.
+
+let response = fetch(url);
+
+// El método fetch() devuelve una Promise para que puedas utilizar los métodos then() y catch() para manejarla:
+
+fetch(url)
+  .then((response) => {
+    // gestiona la respuesta
+  })
+  .catch((error) => {
+    // gestiona el error
+  });
+
+// Cuando la solicitud se completa, el recurso está disponible. En este momento, la promesa se resolverá en un objeto Response.
+
+// El objeto Response es la manera como la API nos manda recurso obtenido. El objeto Response tiene una serie de propiedades y métodos útiles para inspeccionar la respuesta.
