@@ -125,3 +125,13 @@ fetch(url)
 // Cuando la solicitud se completa, el recurso está disponible. En este momento, la promesa se resolverá en un objeto Response.
 
 // El objeto Response es la manera como la API nos manda recurso obtenido. El objeto Response tiene una serie de propiedades y métodos útiles para inspeccionar la respuesta.
+
+let myObject = {
+  test: "1",
+  test2: 3,
+  test3: true,
+};
+let functionCool = () => {
+  console.log(`Cool message number ${myObject.test2}`);
+};
+functionCool();
