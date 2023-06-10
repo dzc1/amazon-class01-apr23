@@ -12,6 +12,8 @@ import DirectivoTexto from "./components/vue-basics/04-DirectivaTexto.vue";
 import DirectivoHtml from "./components/vue-basics/05-DirectivaHtml.vue";
 import DirectivoCondicionales from "./components/vue-basics/06-DirectivaCondicional.vue";
 import DirectivoIteracion from "./components/vue-basics/07-DirectivoIteracion.vue";
+import DirectivaTextoEjercicio from "./components/ejercicios/DirectivaTexto.vue";
+import DirectivaCondicionalEjercicio from "./components/ejercicios/DirectivoCondicional.vue";
 </script>
 
 <!-- Este tag es el tag donde ejecutaremos nuestro HTML Y podemos referenciar nuestro js mediante este principio que se llama reactividad y tambien usaremos otro  principio que se llama interpolacion de texto -->
@@ -27,7 +29,7 @@ import DirectivoIteracion from "./components/vue-basics/07-DirectivoIteracion.vu
     />
 
     <div class="wrapper">
-      <HelloWorld msg="Intro a Vue" />
+      <HelloWorld msg="Ejercicio - Directivo De Texto" />
     </div>
   </header>
 
@@ -53,8 +55,14 @@ import DirectivoIteracion from "./components/vue-basics/07-DirectivoIteracion.vu
     <!-- <DirectivoCondicionales /> -->
 
     <!-- Aprendiendo a usar el directivo tipo for - directivo de iteracion -->
-    <DirectivoIteracion />
+    <!-- <DirectivoIteracion /> -->
   </main>
+
+  <section id="ejercicios">
+    <!-- Aca vamos a colocar nuestros componentes de ejercicio -->
+    <!-- <DirectivaTextoEjercicio /> -->
+    <DirectivaCondicionalEjercicio />
+  </section>
 </template>
 
 <!-- Este tag es el tag donde podemos ejecutar cualquier codigo de CSS -->

@@ -2,6 +2,7 @@
 <template>
   <div>
     <!-- Usar interpolacion de texto -->
+    <!-- Syntax de bigotes -->
     <h4>Usar interpolacion de texto</h4>
     <p>{{ facusFavoriteBand }}</p>
     <hr />
