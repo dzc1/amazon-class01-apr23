@@ -38,6 +38,7 @@
   - [Como abilitar extension 'Live Server' dentro de VS Code](https://www.geeksforgeeks.org/how-to-enable-live-server-on-visual-studio-code/)
 
 - [Video Tutorials](#video-tutorials)
+
   - [Command Line Crash Course](https://youtu.be/uwAqEzhyjtw)
   - [HTML Crash Course - English](https://youtu.be/UB1O30fR-EE)
   - [HTML Crash Course - Spanish](https://www.youtube.com/watch?v=rbuYtrNUxg4)
@@ -45,6 +46,35 @@
   - [CSS Crash Course - Spanish](https://www.youtube.com/watch?v=wZniZEbPAzk)
   - [Git & Github Tutorial - English](https://www.youtube.com/watch?v=HkdAHXoRtos)
   - [Git & Github Tutorial - Spanish](https://www.youtube.com/watch?v=vlCXdvcgiE0)
+  - [CSS Grid Crash Course](https://youtu.be/0xMQfnTU6oo)
+  - [JS Fundamentals](https://youtu.be/vEROU2XtPR8)
+  - [JS Crash Course](https://youtu.be/hdI2bqOjy3c)
+  - [JS Functions & Arrays Crash Course](https://youtu.be/rRgD1yVwIvE)
+  - [JS - DOM Crash Course](https://youtu.be/0ik6X4DJKCc)
+  - [JS - Async Await Crash Course](https://youtu.be/PoRJizFvM7s)
+
+- [Video Projects Tutorials](#video-project-tutorials)
+  - [Build a Music Player | JS, HTML, CSS (Vanilla JS)](https://youtu.be/QTHRWGn_sJw)
+  - [Build A Filterable List With Vanilla JavaScript](https://youtu.be/G1eW3Oi6uoc)
+  - [JavaScript Password Generator](https://youtu.be/duNmhKgtcsI)
+  - [Create A Simple JavaScript App to Generate QR Codes](https://youtu.be/qNiUlml9MDk)
+  - [Star Ratings With JavaScript & Font Awesome](https://youtu.be/u3rylF3y3og)
+  - [Simple JavaScript Slideshow In 5 Minutes](https://youtu.be/4YQ4svkETS0)
+  - [SpaceX Website Clone - HTML, CSS & JavaScript](https://youtu.be/wryPX7KSwSc)
+  - [Rock Paper Scissors Game - UI & JavaScript](https://youtu.be/WR_pWXJZiRY)
+- [Icon Libraries](#icon-libraries)
+
+  - [Font Awesome](https://fontawesome.com/)
+  - [The Noun Project](https://thenounproject.com/)
+
+- [Tools and Helpful Links](#tools)
+  - [CSS Grid Generator](https://cssgrid-generator.netlify.app/)
+  - [CSS Flex Generator](https://flexbox.help/)
+  - [CSS Shadows](https://htmlcssfreebies.com/css-box-shadow-examples/)
+  - [CSS Animations](https://animista.net/)
+  - [CSS Buttons with Animations](https://htmlcssfreebies.com/pheasant-demure-buttons/)
+  - [Media Query CheatSheet](https://gist.github.com/bartholomej/8415655)
+  - [JS Operator Lookup](https://www.joshwcomeau.com/operator-lookup/)
 
 <hr />
 
