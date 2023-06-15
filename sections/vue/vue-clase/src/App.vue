@@ -28,9 +28,12 @@ import DirectivoBindeo from "./components/vue-basics/08-DirectivoBindeo.vue";
       width="400"
       height="200"
     />
-
     <div class="wrapper">
-      <HelloWorld msg="Directivo de bindeo || directivo de unificacion" />
+      <HelloWorld
+        msg="Hola soy un prop tipo string"
+        :edad="3"
+        :booleanoDiego="true"
+      />
     </div>
   </header>
 
