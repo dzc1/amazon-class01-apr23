@@ -14,6 +14,7 @@ import DirectivoCondicionales from "./components/vue-basics/06-DirectivaCondicio
 import DirectivoIteracion from "./components/vue-basics/07-DirectivoIteracion.vue";
 import DirectivaTextoEjercicio from "./components/ejercicios/DirectivaTexto.vue";
 import DirectivaCondicionalEjercicio from "./components/ejercicios/DirectivoCondicional.vue";
+import DirectivoBindeo from "./components/vue-basics/08-DirectivoBindeo.vue";
 </script>
 
 <!-- Este tag es el tag donde ejecutaremos nuestro HTML Y podemos referenciar nuestro js mediante este principio que se llama reactividad y tambien usaremos otro  principio que se llama interpolacion de texto -->
@@ -29,7 +30,7 @@ import DirectivaCondicionalEjercicio from "./components/ejercicios/DirectivoCond
     />
 
     <div class="wrapper">
-      <HelloWorld msg="Ejercicio - Directivo De Texto" />
+      <HelloWorld msg="Directivo de bindeo || directivo de unificacion" />
     </div>
   </header>
 
@@ -56,12 +57,16 @@ import DirectivaCondicionalEjercicio from "./components/ejercicios/DirectivoCond
 
     <!-- Aprendiendo a usar el directivo tipo for - directivo de iteracion -->
     <!-- <DirectivoIteracion /> -->
+
+    <!-- Aprendiendo a usar el directivo de bindeo - v-bind -->
+    <!-- Directivo de bindeo || directivo de unificacion -->
+    <DirectivoBindeo />
   </main>
 
   <section id="ejercicios">
     <!-- Aca vamos a colocar nuestros componentes de ejercicio -->
     <!-- <DirectivaTextoEjercicio /> -->
-    <DirectivaCondicionalEjercicio />
+    <!-- <DirectivaCondicionalEjercicio /> -->
   </section>
 </template>
 
