@@ -52,7 +52,7 @@ let objetoDos = reactive({
 // Ej.4: Creamos un <h4> con un binding de clase que contendrá un array. El primer elemento del array leerá una variable booleánica y solo si esta es true aplicará una clase 'red' que cambie el color a rojo. El segundo elemento del array leerá otra variable booleánica y, según si es verdadera o falsa, aisgnará un border al h4 o no. -->
 
 let booleanoUno = ref(true);
-let booleanoDos = ref(false);
+let booleanoDos = ref(true);
 </script>
 
 <!-- CSS con atributo scoped aca -->
