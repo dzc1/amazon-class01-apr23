@@ -102,11 +102,15 @@ Este ejemplo adjudica una clase determinada en función a una lógica de JavaScr
       </h4>
     </div>
   </div>
+  <div id="ejercicio">
+    <DirectivoBindEjercicio />
+  </div>
 </template>
 
 <!-- Pongan su JS aca -->
 <script setup>
 import { ref, reactive } from "vue";
+import DirectivoBindEjercicio from "../ejercicios/DirectivaBindeo.vue";
 
 // Bindeo de id
 let bindeandoUnId = ref("titulo-heading");
