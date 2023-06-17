@@ -189,10 +189,13 @@
       </div>
     </form>
   </div>
+  <hr />
+  <FormularioEjercicio />
 </template>
 
 <script setup>
 import { ref, reactive } from "vue";
+import FormularioEjercicio from "../ejercicios/DirectivaFormulario.vue";
 
 let mensaje = ref("");
 
