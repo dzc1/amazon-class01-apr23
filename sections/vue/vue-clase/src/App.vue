@@ -15,6 +15,7 @@ import DirectivoIteracion from "./components/vue-basics/07-DirectivoIteracion.vu
 import DirectivaTextoEjercicio from "./components/ejercicios/DirectivaTexto.vue";
 import DirectivaCondicionalEjercicio from "./components/ejercicios/DirectivoCondicional.vue";
 import DirectivoBindeo from "./components/vue-basics/08-DirectivoBindeo.vue";
+import DirectivoFormulario from "./components/vue-basics/09-DirectivoFormulario.vue";
 </script>
 
 <!-- Este tag es el tag donde ejecutaremos nuestro HTML Y podemos referenciar nuestro js mediante este principio que se llama reactividad y tambien usaremos otro  principio que se llama interpolacion de texto -->
@@ -29,11 +30,7 @@ import DirectivoBindeo from "./components/vue-basics/08-DirectivoBindeo.vue";
       height="200"
     />
     <div class="wrapper">
-      <HelloWorld
-        msg="Hola soy un prop tipo string"
-        :edad="3"
-        :booleanoDiego="true"
-      />
+      <HelloWorld msg="Vamos a aprender a trabajar con inputs en VUE" />
     </div>
   </header>
 
@@ -63,7 +60,10 @@ import DirectivoBindeo from "./components/vue-basics/08-DirectivoBindeo.vue";
 
     <!-- Aprendiendo a usar el directivo de bindeo - v-bind -->
     <!-- Directivo de bindeo || directivo de unificacion -->
-    <DirectivoBindeo />
+    <!-- <DirectivoBindeo /> -->
+
+    <!-- Aprendiendo a usar inputs con vue -->
+    <DirectivoFormulario />
   </main>
 
   <section id="ejercicios">
