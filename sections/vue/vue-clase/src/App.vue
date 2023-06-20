@@ -16,6 +16,7 @@ import DirectivaTextoEjercicio from "./components/ejercicios/DirectivaTexto.vue"
 import DirectivaCondicionalEjercicio from "./components/ejercicios/DirectivoCondicional.vue";
 import DirectivoBindeo from "./components/vue-basics/08-DirectivoBindeo.vue";
 import DirectivoFormulario from "./components/vue-basics/09-DirectivoFormulario.vue";
+import SlotComp001 from "./components/vue-basics/slots/10-Slot-Comp001.vue";
 </script>
 
 <!-- Este tag es el tag donde ejecutaremos nuestro HTML Y podemos referenciar nuestro js mediante este principio que se llama reactividad y tambien usaremos otro  principio que se llama interpolacion de texto -->
@@ -63,7 +64,29 @@ import DirectivoFormulario from "./components/vue-basics/09-DirectivoFormulario.
     <!-- <DirectivoBindeo /> -->
 
     <!-- Aprendiendo a usar inputs con vue -->
-    <DirectivoFormulario />
+    <!-- <DirectivoFormulario /> -->
+
+    <!-- Aprendiendo a usa SLOTS en vue  -->
+    <SlotComp001
+      title="Hola chicos"
+      image="https://files.worldwildlife.org/wwfcmsprod/images/Sloth_3_12_2014/story_full_width/2a8fgktz30_sloth__c__Jorge_Salas_International_Expeditions.JPG"
+      description="Una breve descripcion"
+    >
+      <button>CLick me</button>
+    </SlotComp001>
+    <SlotComp001
+      title="Hola chicoaskdlskmfjrsdlfgrjsdgdfsjl;s"
+      image="https://files.worldwildlife.org/wwfcmsprod/images/Sloth_3_12_2014/story_full_width/2a8fgktz30_sloth__c__Jorge_Salas_International_Expeditions.JPG"
+      description="Una breve descripcion"
+    >
+      <div>
+        <img
+          src="https://files.worldwildlife.org/wwfcmsprod/images/Baby_Sloth_Hanging_iStock_3_12_2014/portrait_overview/4zhzw2pmf0_iStock_000016816803XLarge_mini.jpg"
+          alt="imagen de una pereza"
+        />
+        <p>me gustan los slots</p>
+      </div>
+    </SlotComp001>
   </main>
 
   <section id="ejercicios">
