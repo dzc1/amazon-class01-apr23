@@ -19,7 +19,9 @@ import DirectivoBindeo from "./components/vue-basics/08-DirectivoBindeo.vue";
 import DirectivoFormulario from "./components/vue-basics/09-DirectivoFormulario.vue";
 import SlotComp001 from "./components/vue-basics/slots/10-Slot-Comp001.vue";
 import EjercicioSlot from "./components/ejercicios/EjercicioSlot.vue";
+import Eventos from "./components/vue-basics/12-Eventos.vue";
 
+// PRINCIPIO DE - Ejercicio de Slots - DATA
 const pescado = reactive({
   img: "https://www.rockaxis.com/img/newsList/4930037.jpg",
   altText: "Una Imagen de pescado rabioso",
@@ -45,6 +47,7 @@ const lugarDeVeraneo = reactive({
   img: "https://www.sensacionrural.es/blog/wp-content/uploads/2021/11/jaca-huesca-que-ver.jpg",
   altText: "Castillo de San Pedro, nunca conquistado!",
 });
+// FINAL DE - Ejercicio de Slots - DATA
 </script>
 
 <!-- Este tag es el tag donde ejecutaremos nuestro HTML Y podemos referenciar nuestro js mediante este principio que se llama reactividad y tambien usaremos otro  principio que se llama interpolacion de texto -->
@@ -102,35 +105,48 @@ const lugarDeVeraneo = reactive({
     >
       <button>CLick me</button>
     </SlotComp001> -->
+
+    <!-- Aprendiendo a usar eventos en vue -->
+    <Eventos />
   </main>
 
   <section id="ejercicios">
     <!-- Aca vamos a colocar nuestros componentes de ejercicio -->
     <!-- <DirectivaTextoEjercicio /> -->
     <!-- <DirectivaCondicionalEjercicio /> -->
-    <h2>Mi banda preferida - Facu</h2>
-    <EjercicioSlot titulo="Pescadoso Rabioso">
-      <img :src="pescado.img" :alt="pescado.altText" />
-    </EjercicioSlot>
-    <h2>Mi comida preferida - Nico</h2>
-    <EjercicioSlot :titulo="panchos.titulo">
-      <img :src="panchos.img" :alt="panchos.altText" />
-      <div v-html="panchos.html"></div>
-    </EjercicioSlot>
-    <h2>Mi lugar de veraneo - Jorge</h2>
-    <EjercicioSlot :titulo="lugarDeVeraneo.ubicacion">
-      <img :src="lugarDeVeraneo.img" :alt="lugarDeVeraneo.altText" />
-      <div :v-html="lugarDeVeraneo.googleEmbed"></div>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23505.472551103892!2d-0.5656031871332332!3d42.57261541706698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5780ec767847ed%3A0x196f61f8bc9a1be2!2s22700%20Jaca%2C%20Huesca%2C%20Spain!5e0!3m2!1sen!2sse!4v1687281219071!5m2!1sen!2sse"
-        width="400"
-        height="300"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-    </EjercicioSlot>
+    <!-- .. -->
+    <!-- .. -->
+    <!-- .. -->
+    <!-- PRINCIPIO DE EJERCICIO DE SLOTS -->
+    <!-- <div>
+      <h2>Mi banda preferida - Facu</h2>
+      <EjercicioSlot titulo="Pescadoso Rabioso">
+        <img :src="pescado.img" :alt="pescado.altText" />
+      </EjercicioSlot>
+      <h2>Mi comida preferida - Nico</h2>
+      <EjercicioSlot :titulo="panchos.titulo">
+        <img :src="panchos.img" :alt="panchos.altText" />
+        <div v-html="panchos.html"></div>
+      </EjercicioSlot>
+      <h2>Mi lugar de veraneo - Jorge</h2>
+      <EjercicioSlot :titulo="lugarDeVeraneo.ubicacion">
+        <img :src="lugarDeVeraneo.img" :alt="lugarDeVeraneo.altText" />
+        <div :v-html="lugarDeVeraneo.googleEmbed"></div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23505.472551103892!2d-0.5656031871332332!3d42.57261541706698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5780ec767847ed%3A0x196f61f8bc9a1be2!2s22700%20Jaca%2C%20Huesca%2C%20Spain!5e0!3m2!1sen!2sse!4v1687281219071!5m2!1sen!2sse"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </EjercicioSlot>
+    </div> -->
+    <!-- Final DE EJERCICIO DE SLOTS -->
+    <!-- .. -->
+    <!-- .. -->
+    <!-- .. -->
   </section>
 </template>
 
