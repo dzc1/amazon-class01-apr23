@@ -13,7 +13,7 @@
     <!-- <slot class="slot-estilado"></slot> -->
     <!-- ^ Malas practicas ya que no reconoce la clase!  -->
     <SlotComp002>
-      <h3>Hola chicos</h3>
+      <h3>Soy un h3 dentro de un slot que vive dentro de un componente</h3>
     </SlotComp002>
   </div>
 </template>
