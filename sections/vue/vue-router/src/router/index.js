@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import Suecia from "../views/Sweden.vue";
+import Suecia from "../pages/Sweden.vue";
+import Barcelona from "../components/Barcelona.vue";
+import Raval from "../components/Raval.vue";
+import NouBarris from "../components/NouBarris.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -25,6 +28,23 @@ const router = createRouter({
       path: "/suecia",
       name: "Suecia, componente sobre suecia",
       component: Suecia,
+    },
+    {
+      path: "/barcelona",
+      name: "Barcelona, Mola",
+      component: Barcelona,
+      children: [
+        {
+          path: "/el-raval",
+          name: "Sub Ruta dedicada al Raval",
+          component: Raval,
+        },
+        {
+          path: "/nou-barris",
+          name: "Sub Ruta dedicada a Nou Barris",
+          component: NouBarris,
+        },
+      ],
     },
   ],
 });

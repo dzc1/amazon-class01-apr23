@@ -4,6 +4,7 @@ import { ref, reactive } from "vue";
 import HelloWorld from "./components/HelloWorld.vue";
 
 let rutaDiego = ref("/suecia");
+let rutaBarcelona = ref("/barcelona");
 </script>
 
 <template>
@@ -13,9 +14,12 @@ let rutaDiego = ref("/suecia");
       <a href="/about">About - Usando un elemento normal de anclaje</a>
       <!-- Usando el router link, como ven no hay recarga de pagina, porque se usa el router y este metodo que se parsea como elementon de HTML para poder routear correctamente -->
       <!-- Este elemento depende de un atributo que se llama "to", que quede claro que yo me puedo bindear a este atributo :) -->
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
-      <RouterLink :to="rutaDiego">Suecia</RouterLink>
+      <RouterLink class="router-link-class" to="/">Home</RouterLink>
+      <RouterLink class="router-link-class" to="/about">About</RouterLink>
+      <RouterLink class="router-link-class" :to="rutaDiego">Suecia</RouterLink>
+      <RouterLink class="router-link-class" v-bind:to="rutaBarcelona"
+        >Barcelona</RouterLink
+      >
     </nav>
   </header>
 
@@ -26,6 +30,11 @@ let rutaDiego = ref("/suecia");
 header {
   line-height: 1.5;
   max-height: 100vh;
+}
+
+.router-link-class,
+a {
+  font-size: 3em;
 }
 
 .logo {
