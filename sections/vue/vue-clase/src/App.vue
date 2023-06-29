@@ -20,6 +20,8 @@ import DirectivoFormulario from "./components/vue-basics/09-DirectivoFormulario.
 import SlotComp001 from "./components/vue-basics/slots/10-Slot-Comp001.vue";
 import EjercicioSlot from "./components/ejercicios/EjercicioSlot.vue";
 import Eventos from "./components/vue-basics/12-Eventos.vue";
+import Computed from "./components/vue-basics/14-ComputedProps.vue";
+import Hooks from "./components/vue-basics/15-Hooks.vue";
 
 // PRINCIPIO DE - Ejercicio de Slots - DATA
 const pescado = reactive({
@@ -62,7 +64,7 @@ const lugarDeVeraneo = reactive({
       height="200"
     />
     <div class="wrapper">
-      <HelloWorld msg="trabajando con slots" />
+      <HelloWorld msg="trabajando con computed props" />
     </div>
   </header>
 
@@ -107,7 +109,13 @@ const lugarDeVeraneo = reactive({
     </SlotComp001> -->
 
     <!-- Aprendiendo a usar eventos en vue -->
-    <Eventos />
+    <!-- <Eventos /> -->
+
+    <!-- Aprendiendo a usar computed properties o propiedades computadas en vue -->
+    <!-- <Computed /> -->
+
+    <!-- Aprendiendo Hooks -->
+    <Hooks />
   </main>
 
   <section id="ejercicios">
